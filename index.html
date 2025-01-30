@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LAB 02</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Active link pointing to the index.html page -->
+        <a class="active" href="index.html">Courses</a>
+
+        <!-- Links to other sections -->
+        <a href="education.html">Education</a>
+        <a href="experiences.html">Experiences</a>
+        <a href="projects.html">Projects</a>
+        <a href="achievements.html">Achievements</a>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <!-- Page content -->
+    <div class="content">
+        <a href="#" class="fa fa-github fa-3x redirect-text" onclick="reDirect('github')"></a>
+        <!-- Abstract section -->
+        <H1 class="bluetext">Name: <span class="greentext">Edward</span></H1>
+        <!-- Displaying the course cover image in a scaled size -->
+        <H2 class="graytext">Favorite Courses:</H2>
+        <ul>
+            <li class="redirect-text" onclick="reDirect('ARCH231')">ARCH 231</li>
+            <li class="redirect-text" onclick="reDirect('CSE163')">CSE 163</li>
+            <li class="redirect-text" onclick="reDirect('CSE414')">CSE 414</li>
+            <li class="redirect-text" onclick="reDirect('DRAMA101')">DRAMA 101</li>
+            <li class="redirect-text" onclick="reDirect('GEOG360')">GEOG 360</li>
+            <li class="redirect-text" onclick="reDirect('GEOG458')">GEOG 458</li>
+            <li class="redirect-text" onclick="reDirect('INFO201')">INFO 201</li>
+        </ul>
+        <br>
+     
+        <img src="img/dubs.jpeg" style="width: 100%; height: auto;">
+    </div>
+
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
